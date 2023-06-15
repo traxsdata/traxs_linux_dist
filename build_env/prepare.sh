@@ -20,3 +20,5 @@ mkdir -pv $LFS/tools
 for i in bin lib sbin; do
   ln -sv usr/$i $LFS/$i
 done
+
+chown -v lfs $LFS/{usr{,/*},lib,var,etc,bin,sbin,tools,lib64,sources}
