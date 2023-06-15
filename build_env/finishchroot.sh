@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -e
 mkdir -pv /{boot,home,mnt,opt,srv}
 
 mkdir -pv /etc/{opt,sysconfig}
@@ -32,3 +32,4 @@ chmod -v 664  /var/log/lastlog
 chmod -v 600  /var/log/btmp
 
 echo "Finished Chroot build!!"
+

@@ -83,3 +83,5 @@ echo "Creating build enviorement...."
 ## bash -e build_scripts/extract.tar.sh mpc-1.3.1.tar.gz mpc gcc-12.2.0.tar.xz
 ## bash -e build_scripts/buildwhat.tar.sh gcc-12.2.0.tar.xz gcc.p2.sh
 
+
+
