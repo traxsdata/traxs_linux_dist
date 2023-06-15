@@ -78,7 +78,8 @@ echo "Creating build enviorement...."
 ## bash -e build_scripts/buildwhat.tar.sh binutils-2.40.tar.xz binutil.p2.sh
 
 # https://www.linuxfromscratch.org/lfs/view/stable-systemd/chapter06/gcc-pass2.html
-bash -e build_scripts/extract.tar.sh mpfr-4.2.0.tar.xz mpfr gcc-12.2.0.tar.xz
-bash -e build_scripts/extract.tar.sh gmp-6.2.1.tar.xz gmp gcc-12.2.0.tar.xz
-bash -e build_scripts/extract.tar.sh mpc-1.3.1.tar.gz mpc gcc-12.2.0.tar.xz
-bash -e build_scripts/buildwhat.tar.sh gcc-12.2.0.tar.xz gcc.p2.sh
+## bash -e build_scripts/extract.tar.sh mpfr-4.2.0.tar.xz mpfr gcc-12.2.0.tar.xz
+## bash -e build_scripts/extract.tar.sh gmp-6.2.1.tar.xz gmp gcc-12.2.0.tar.xz
+## bash -e build_scripts/extract.tar.sh mpc-1.3.1.tar.gz mpc gcc-12.2.0.tar.xz
+## bash -e build_scripts/buildwhat.tar.sh gcc-12.2.0.tar.xz gcc.p2.sh
+
